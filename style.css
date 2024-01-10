@@ -6,32 +6,44 @@ html {
 
 body {
   min-height: 100%;
-  min-width: 100%;
-  background: linear-gradient(pink, violet);
+  min-width: 85%;
+  background: linear-gradient(#4a6741, 	#22311d);
 }
 
-button {
-  font-size: 7px;
+h1 {
+  text-align: center;
 }
 
 #main-content {
   position: relative;
-  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.3);
-  padding: 15px 20px 18px 18px;
+  padding: 15px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
 
+#create-task-form {
+  padding: 15px 15px 18px 15px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 
+}
+
+input[type=submit] {
+  float: right;
+} 
+
 #list {
-  margin: 10px;
+  margin: 20px 10px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  color: #22311d;
 }
