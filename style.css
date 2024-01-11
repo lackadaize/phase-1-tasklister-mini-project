@@ -1,17 +1,22 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 body {
   min-height: 100%;
-  min-width: 85%;
+  min-width: 340x;
+  max-width: 600px;
+  margin: 20px auto;
   background: linear-gradient(#4a6741, 	#22311d);
 }
 
 h1 {
   text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 #main-content {
@@ -29,21 +34,91 @@ h1 {
   padding: 15px 15px 18px 15px;
 }
 
+.column-date {
+  width: 50%;
+  float: left;
+}
+
+.column-priority {
+  width: 50%;
+  float: left;
+}
+
+.column-task-description {
+  width: 100%;
+  float: left;
+  margin: 10px auto 15px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  clear: both;
+  float: left;
+  margin-bottom: 8px;
+}
+
 input {
   margin-bottom: 10px;
-  padding: 
+  padding: 8px;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  min-width:95%;
+  max-width: 95%;
+}
+
+.column-priority select {
+  width: 95%;
+}
+
+select, option {
+  padding: 10px;
+  font-size: 18px;
+}
+
+select option {
+  background-color: #000;
+}
+select option:first-child {
+  background-color: red;
+}
+
+select option:nth-child(2) {
+  background-color: yellow;
+}
+
+select option:nth-child(3) {
+  background-color: green;
 }
 
 input[type=submit] {
   float: right;
+  font-weight: bold;
+  font-size: 18px;
 } 
 
+.clearfloat {
+  clear: both;
+}
+
 #list {
-  margin: 20px 10px;
+  margin: 30px 10px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
   color: #22311d;
+}
+
+#list li {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#list button {
+  float: right;
 }
