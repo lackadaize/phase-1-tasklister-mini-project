@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let date = document.getElementById("new-task-date").value
     let task = document.getElementById("new-task-description").value
     let priority = document.getElementById("new-task-priority").value
-    populateList( date + ": " + task + " " + priority + "   ");
+    populateList( date + ": " + task + " [" + priority + "]   ");
     form.reset();
     console.log( date + ": " + task + priority);
   });

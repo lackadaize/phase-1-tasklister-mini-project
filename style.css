@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 340x;
-  max-width: 600px;
+  max-width: 700px;
   margin: 20px auto;
   background: linear-gradient(#4a6741, 	#22311d);
 }
@@ -47,7 +47,7 @@ h1 {
 .column-task-description {
   width: 100%;
   float: left;
-  margin: 10px auto 15px;
+  margin: 15px auto 15px;
 }
 
 label {
@@ -98,6 +98,7 @@ input[type=submit] {
   float: right;
   font-weight: bold;
   font-size: 18px;
+  margin-right: 10px;
 } 
 
 .clearfloat {
